@@ -12,7 +12,8 @@ pip install -r requirements.txt
 
 ```bash
 # CLI
-python main.py --max 100 --output tenders.db
+python main.py --max 100 --output tenders.db --format sqlite
+python main.py --max 100 --output tenders.json --format json
 
 # API
 python api.py
